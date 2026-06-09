@@ -5,6 +5,7 @@ Repositorio de prácticas y proyectos desarrollados para la clase de Herramienta
 ## Índice de contenidos
 
 - [Práctica 1: MNIST con NumPy](#práctica-1-mnist-con-numpy)
+- [Práctica 2: PySpark](#práctica-2-pyspark)
 - [Recursos y datos](#recursos-y-datos)
 - [Cómo ejecutar los notebooks](#cómo-ejecutar-los-notebooks)
 - [Estructura del repositorio](#estructura-del-repositorio)
@@ -19,6 +20,18 @@ Ver carpeta `numpy_practica`
 
 - **numpy_mnist.ipynb** — Análisis de datos, visualización de dígitos, cálculo de promedios por clase y construcción de un clasificador basado en distancias euclidianas.
 - **mnist_train_small.csv** — Versión reducida del conjunto de datos MNIST (20,000 ejemplos).
+
+## Práctica 2: PySpark
+
+Implementación de prácticas utilizando PySpark para el procesamiento y análisis de grandes volúmenes de datos.
+
+Ver carpeta `pyspark`
+
+### Archivos:
+
+- **actividad_taxi_ny.ipynb** — Análisis de datos de viajes en taxi en Nueva York (lectura de archivos Parquet, inspección de esquemas, manejo de datos nulos).
+- **lectura_escritura.ipynb** — Ejercicios de auditoría de calidad de datos, limpieza, manejo de duplicados, valores inválidos y generación de reportes.
+- **practica_pyspark.ipynb** — Ejercicios básicos de PySpark (filtrado, transformación de columnas, agregaciones y agrupaciones).
 
 ## Recursos y datos
 
@@ -45,6 +58,10 @@ herramientas-de-grandes-vol-de-datos/
 ├── numpy_practica/                 # Práctica con NumPy y MNIST
 │   ├── mnist_train_small.csv       # Dataset reducido de MNIST
 │   └── numpy_mnist.ipynb           # Notebook con la resolución de la práctica
+├── pyspark/                        # Prácticas con PySpark
+│   ├── actividad_taxi_ny.ipynb     # Análisis de datos NYC Taxi
+│   ├── lectura_escritura.ipynb     # Auditoría y limpieza de datos
+│   └── practica_pyspark.ipynb      # Uso básico de PySpark
 └── README.md
 ```
 
